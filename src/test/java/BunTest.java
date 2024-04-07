@@ -25,13 +25,13 @@ public class BunTest {
     }
 
     @Test
-    public void getName(){
+    public void checkGetName(){
         Bun bun = new Bun(name, price);
         Assert.assertEquals(name, bun.getName());
     }
 
     @Test
-    public void getPrice(){
+    public void checkGetPrice(){
         Bun bun = new Bun(name, price);
         Assert.assertEquals(price, bun.getPrice(), 0);
     }
